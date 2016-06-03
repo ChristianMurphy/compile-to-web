@@ -5,9 +5,9 @@ and WebAssembly.
 
 ## Languages
 
-*   [ ] C
-*   [ ] C++
-*   [ ] Crystal
-*   [ ] Java
-*   [ ] Rust
-*   [ ] Swift
+*   [ ] [C](C/README.md)
+*   [ ] [C++](C++/README.md)
+*   [ ] [Crystal](Crystal/README.md)
+*   [ ] [Java](Java/README.md)
+*   [ ] [Rust](Rust/README.md)
+*   [ ] [Swift](Swift/README.md)
