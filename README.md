@@ -10,8 +10,8 @@ and web assembly (WASM)
 | [C](C/README.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [Crystal](Crystal/README.md)  | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Go](Go/README.md)            | :no_entry:         | :question:         | :question:              | :question:            |
-| [Java](Java/README.md)        | :no_entry:         | :question:         | :question:              | :question:            |
+| [Go](Go/README.md)            | :white_check_mark: | :question:         | :question:              | :question:            |
+| [Java](Java/README.md)        | :white_check_mark: | :question:         | :question:              | :question:            |
 | [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :question:              | :question:            |
 | [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 | [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
