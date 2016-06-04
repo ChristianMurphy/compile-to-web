@@ -1,7 +1,6 @@
-# WebAssembly Demo
+# asm.js Language Support
 
-The goal of this project is to see what languages can be compiles into ASM.js
-and WebAssembly.
+The goal of this project is to see what languages can be compiled into asm.js
 
 ## Languages
 
