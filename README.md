@@ -10,15 +10,15 @@ and web assembly (WASM)
 | [C](C/README.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :question:            |
 | [Crystal](Crystal/README.md)  | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
-| [Go](Go/README.md)            | :no_entry:         | :no_entry:         | :no_entry:              | :question:            |
-| [Java](Java/README.md)        | :no_entry:         | :no_entry:         | :no_entry:              | :question:            |
-| [Julia](Julia/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
+| [Go](Go/README.md)            | :question:         | :question:         | :question:              | :question:            |
+| [Java](Java/README.md)        | :question:         | :question:         | :question:              | :question:            |
+| [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :no_entry:              | :question:            |
 | [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
 | [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
 
 ## Installation
 
-1.  install emscripten
-2.  install binaryen
-3.  install node.js
+1.  install emscripten (tested with version 1.36.5)
+2.  install binaryen (tested with version 9)
+3.  install node.js (tested with version 6.2.0)
 4.  follow additional setup for chosen language

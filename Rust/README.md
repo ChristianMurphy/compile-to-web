@@ -2,29 +2,24 @@
 
 ## Installation
 
-1.  install emscripten
-2.  install rust
-3.  install Node.js
+1.  install Rust (tested with version 1.9.0)
 
-## Currently Broken
-
-Rust RFC 604 is tracking progress
-
-## Build
+## llvm
 
 ``` sh
+# compile to llvm ir
 rustc --emit=llvm-ir hello.rs
-emcc hello.ll
 ```
 
-## Run
+## asm.js - broken
 
 ``` sh
+# compile to asm.js
+emcc hello.ll
+# run code
 node a.out.js
 ```
 
-## Tested With
+## Web Assembly
 
-*   emscripten 1.36.5
-*   rustc 1.9.0
-*   node 6.2.0
+TODO

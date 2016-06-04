@@ -2,29 +2,24 @@
 
 ## Installation
 
-1.  install emscripten
-2.  install swift
-3.  install Node.js
+1.  install swift (tested with version 2.2.1)
 
-## Currently Broken
-
-emscripten issue 2427 is tracking progress
-
-## Build
+## llvm
 
 ``` sh
-swiftc --emit-ir hello.swift > hello.ll
-emcc hello.ll
+# compile to llvm ir
+swiftc --emit-ir hello.swift -o hello.ll
 ```
 
-## Run
+## asm.js - broken
 
 ``` sh
+# compile to asm.js
+emcc hello.ll
+# run code
 node a.out.js
 ```
 
-## Tested With
+## Web Assembly
 
-*   emscripten 1.36.5
-*   swift 2.2.1
-*   node 6.2.0
+TODO

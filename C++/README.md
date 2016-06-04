@@ -1,23 +1,14 @@
 # C++ Instructions
 
-## Installation
-
-1.  install emscripten
-2.  install Node.js
-
-## Build
+## asm.js
 
 ``` sh
+# compile code
 emcc hello.cpp
-```
-
-## Run
-
-``` sh
+# run code
 node a.out.js
 ```
 
-## Tested With
+## Web Assembly
 
-*   emscripten 1.36.5
-*   node 6.2.0
+TODO

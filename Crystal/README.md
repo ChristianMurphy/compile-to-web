@@ -1,30 +1,25 @@
 # Crystal Instructions
 
-## Installation
+## Additional Installation
 
-1.  install emscripten
-2.  install crystal
-3.  install Node.js
+1.  install Crystal (tested with version 0.17.4)
 
-## Currently Broken
-
-Crystal Language issue 535 is tracking progress.
-
-## Build
+## llvm
 
 ``` sh
+# compile to llvm ir
 crystal build --emit=llvm-ir --single-module hello.cr
-emcc hello.ll
 ```
 
-## Run
+## asm.js - broken
 
 ``` sh
+# compile to asm.js
+emcc hello.ll
+# run code
 node a.out.js
 ```
 
-## Tested With
+## Web Assembly
 
-*   crystal 0.17.4
-*   emscripten 1.36.5
-*   node 6.2.0
+TODO

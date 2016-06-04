@@ -1,30 +1,25 @@
 # Julia Instructions
 
-## Installation
+## Additional Installation
 
-1.  install emscripten
-2.  install julia
-3.  install Node.js
+1.  install Julia (tested with version 0.4.5)
 
-## Currently Broken
-
-cannot open boot.jl
-
-## Build
+## llvm
 
 ``` sh
+# compile to llvm bc
 julia --compile=all --output-bc=hello.bc hello.jl
-emcc hello.bc
 ```
 
-## Run
+## asm.js - broken
 
 ``` sh
+# compile to asm.js
+emcc hello.bc
+# run code
 node a.out.js
 ```
 
-## Tested With
+## Web Assembly
 
-*   julia 0.4.5
-*   emscripten 1.36.5
-*   node 6.2.0
+TODO
