@@ -13,7 +13,7 @@ and web assembly (WASM)
 | [Go](Go/README.md)            | :question:         | :question:         | :question:              | :question:            |
 | [Java](Java/README.md)        | :question:         | :question:         | :question:              | :question:            |
 | [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :question:              | :question:            |
-| [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
+| [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 | [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
 
 ## Installation

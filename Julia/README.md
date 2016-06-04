@@ -11,7 +11,7 @@
 julia --compile=all --output-bc=hello.bc hello.jl
 ```
 
-## asm.js - ?
+## asm.js - unknown
 
 ``` sh
 # compile to asm.js
@@ -20,7 +20,7 @@ emcc hello.bc
 node a.out.js
 ```
 
-## Web Assembly - ?
+## Web Assembly - unknown
 
 ``` sh
 # compile to llvm object

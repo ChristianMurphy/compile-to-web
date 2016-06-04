@@ -3,3 +3,5 @@ a.out.js
 *.ll
 *.bc
 *.class
+*.wasm
+*.wast
