@@ -6,6 +6,10 @@
 2.  install rust
 3.  install Node.js
 
+## Currently Broken
+
+Rust RFC 604 is tracking progress
+
 ## Build
 
 ``` sh
