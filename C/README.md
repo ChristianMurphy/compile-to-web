@@ -5,17 +5,16 @@
 1.  install emscripten
 2.  install Node.js
 
-## Build
+## asm.js
 
 ``` sh
+# build code
 emcc hello.c
-```
-
-## Run
-
-``` sh
+# run code
 node a.out.js
 ```
+
+## WebAssembly
 
 ## Tested With
 
