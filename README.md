@@ -5,8 +5,8 @@ and WebAssembly.
 
 ## Languages
 
-*   [ ] [C](C/README.md)
-*   [ ] [C++](C++/README.md)
+*   [x] [C](C/README.md)
+*   [x] [C++](C++/README.md)
 *   [ ] [Crystal](Crystal/README.md)
 *   [ ] [Java](Java/README.md)
 *   [ ] [Rust](Rust/README.md)
