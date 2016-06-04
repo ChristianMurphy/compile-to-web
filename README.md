@@ -16,6 +16,14 @@ and web assembly (WASM)
 | [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 | [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
 
+### Key
+
+| Icon               | Meaning |
+|:------------------:|---------|
+| :white_check_mark: | Success |
+| :no_entry:         | Broken  |
+| :question:         | Unknown |
+
 ## Installation
 
 1.  install emscripten (tested with version 1.36.5)
