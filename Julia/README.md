@@ -2,7 +2,7 @@
 
 ## Additional Installation
 
-1.  install Julia (tested with version 0.4.5)
+1.  install [Julia](http://julialang.org/downloads/) (tested with version 0.4.5)
 
 ## llvm - broken
 

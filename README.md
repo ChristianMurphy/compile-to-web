@@ -10,8 +10,8 @@ and web assembly (WASM)
 | [C](C/README.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [Crystal](Crystal/README.md)  | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Go](Go/README.md)            | :question:         | :question:         | :question:              | :question:            |
-| [Java](Java/README.md)        | :question:         | :question:         | :question:              | :question:            |
+| [Go](Go/README.md)            | :no_entry:         | :question:         | :question:              | :question:            |
+| [Java](Java/README.md)        | :no_entry:         | :question:         | :question:              | :question:            |
 | [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :question:              | :question:            |
 | [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 | [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
@@ -26,7 +26,13 @@ and web assembly (WASM)
 
 ## Installation
 
-1.  install emscripten (tested with version 1.36.5)
-2.  install binaryen (tested with version 9)
-3.  install node.js (tested with version 6.2.0)
+1.  install [emscripten](https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html)
+    (tested with version 1.36.5)
+
+2.  install [binaryen](https://github.com/kripken/emscripten/wiki/WebAssembly#building-webassembly-now)
+    (tested with version 9)
+
+3.  install [node.js](https://nodejs.org/en/download/)
+    (tested with version 6.2.0)
+
 4.  follow additional setup for chosen language

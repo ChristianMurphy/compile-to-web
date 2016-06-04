@@ -2,7 +2,7 @@
 
 ## Installation
 
-1.  install Rust (tested with version 1.9.0)
+1.  install [Rust](https://www.rust-lang.org/) (tested with version 1.9.0)
 
 ## llvm
 

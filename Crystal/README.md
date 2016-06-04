@@ -2,7 +2,8 @@
 
 ## Additional Installation
 
-1.  install Crystal (tested with version 0.17.4)
+1.  install [Crystal](http://crystal-lang.org/docs/installation/index.html)
+    (tested with version 0.17.4)
 
 ## llvm
 

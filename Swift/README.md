@@ -2,7 +2,7 @@
 
 ## Installation
 
-1.  install swift (tested with version 2.2.1)
+1.  install [Swift](https://swift.org/download/) (tested with version 2.2.1)
 
 ## llvm
 
