@@ -1,6 +1,6 @@
 # Swift Instructions
 
-## Installation
+## Additional Installation
 
 1.  install [Swift](https://swift.org/download/) (tested with version 2.2.1)
 
@@ -20,6 +20,11 @@ emcc hello.ll
 node a.out.js
 ```
 
-## Web Assembly
+## Web Assembly - broken
 
-TODO
+``` sh
+# compile to llvm object
+llc hello.ll -march=wasm32 -filetype=asm -o hello.s
+# compile to web assembly
+s2wasm hello.s > hello.wast
+```

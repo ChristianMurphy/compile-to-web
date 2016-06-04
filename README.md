@@ -14,7 +14,7 @@ and web assembly (WASM)
 | [Java](Java/README.md)        | :no_entry:         | :question:         | :question:              | :question:            |
 | [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :question:              | :question:            |
 | [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
+| [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 
 ### Key
 
