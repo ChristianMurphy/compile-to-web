@@ -11,6 +11,7 @@ and web assembly (WASM)
 | [C++](C++/README.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [Crystal](Crystal/README.md) | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 | [Go](Go/README.md)           | :white_check_mark: | :question:         | :question:              | :question:            |
+| [Haskell](Haskell/README.md) | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            | 
 | [Java](Java/README.md)       | :white_check_mark: | :question:         | :question:              | :question:            |
 | [Julia](Julia/README.md)     | :white_check_mark: | :no_entry:         | :question:              | :question:            |
 | [Python](Python/README.md)   | :question:         | :question:         | :question:              | :question:            |
