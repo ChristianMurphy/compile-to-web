@@ -5,16 +5,16 @@ and web assembly (WASM)
 
 ## Languages
 
-| Language                      | Instructions       | Compiles to LLVM   | LLVM compiles to asm.js | LLVM compiles to WASM |
-|-------------------------------|:------------------:|:------------------:|:-----------------------:|:---------------------:|
-| [C](C/README.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
-| [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
-| [Crystal](Crystal/README.md)  | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Go](Go/README.md)            | :white_check_mark: | :question:         | :question:              | :question:            |
-| [Java](Java/README.md)        | :white_check_mark: | :question:         | :question:              | :question:            |
-| [Julia](Julia/README.md)      | :white_check_mark: | :no_entry:         | :question:              | :question:            |
-| [Rust](Rust/README.md)        | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Swift](Swift/README.md)      | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
+| Language                     | Instructions       | Compiles to LLVM   | LLVM compiles to asm.js | LLVM compiles to WASM |
+|------------------------------|:------------------:|:------------------:|:-----------------------:|:---------------------:|
+| [C](C/README.md)             | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
+| [C++](C++/README.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
+| [Crystal](Crystal/README.md) | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
+| [Go](Go/README.md)           | :white_check_mark: | :question:         | :question:              | :question:            |
+| [Java](Java/README.md)       | :white_check_mark: | :question:         | :question:              | :question:            |
+| [Julia](Julia/README.md)     | :white_check_mark: | :no_entry:         | :question:              | :question:            |
+| [Rust](Rust/README.md)       | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
+| [Swift](Swift/README.md)     | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
 
 ### Key
 
