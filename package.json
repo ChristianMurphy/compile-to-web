@@ -1,0 +1,13 @@
+{
+  "name": "compile-to-web",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "remark **/*.md -u remark-lint -u remark-validate-links --no-stdout"
+  },
+  "private": true,
+  "devDependencies": {
+    "remark": "^4.2.2",
+    "remark-lint": "^3.2.1",
+    "remark-validate-links": "^3.0.0"
+  }
+}
