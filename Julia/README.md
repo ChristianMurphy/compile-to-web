@@ -20,6 +20,11 @@ emcc hello.bc
 node a.out.js
 ```
 
-## Web Assembly
+## Web Assembly - ?
 
-TODO
+``` sh
+# compile to llvm object
+llc hello.bc -march=wasm32 -filetype=asm -o hello.s
+# compile to web assembly
+s2wasm hello.s > hello.wast
+```
