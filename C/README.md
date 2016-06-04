@@ -3,7 +3,7 @@
 ## asm.js
 
 ``` sh
-# compile code
+# compile to asm.js
 emcc hello.c
 # run code
 node a.out.js
@@ -11,4 +11,7 @@ node a.out.js
 
 ## Web Assembly
 
-TODO
+``` sh
+# compile to wasm
+emcc hello.c -s BINARYEN=1
+```

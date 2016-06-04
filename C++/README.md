@@ -11,4 +11,7 @@ node a.out.js
 
 ## Web Assembly
 
-TODO
+``` sh
+# compile to wasm
+emcc hello.cpp -s BINARYEN=1
+```

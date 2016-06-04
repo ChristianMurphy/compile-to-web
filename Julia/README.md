@@ -4,14 +4,14 @@
 
 1.  install Julia (tested with version 0.4.5)
 
-## llvm
+## llvm - broken
 
 ``` sh
 # compile to llvm bc
 julia --compile=all --output-bc=hello.bc hello.jl
 ```
 
-## asm.js - broken
+## asm.js - ?
 
 ``` sh
 # compile to asm.js

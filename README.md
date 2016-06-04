@@ -8,7 +8,7 @@ and web assembly (WASM)
 | Language                      | Instructions       | Compiles to LLVM   | LLVM compiles to asm.js | LLVM compiles to WASM |
 |-------------------------------|:------------------:|:------------------:|:-----------------------:|:---------------------:|
 | [C](C/README.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
-| [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :question:            |
+| [C++](C++/README.md)          | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
 | [Crystal](Crystal/README.md)  | :white_check_mark: | :white_check_mark: | :no_entry:              | :question:            |
 | [Go](Go/README.md)            | :question:         | :question:         | :question:              | :question:            |
 | [Java](Java/README.md)        | :question:         | :question:         | :question:              | :question:            |
