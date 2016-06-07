@@ -7,7 +7,7 @@
   "private": true,
   "devDependencies": {
     "remark": "^4.2.2",
-    "remark-lint": "^3.2.1",
+    "remark-lint": "^4.0.0",
     "remark-validate-links": "^3.0.0"
   }
 }
