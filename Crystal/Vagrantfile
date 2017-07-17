@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y make
+  SHELL
+
+  config.vm.provision "file", source: "makefile", destination: "makefile"
+  config.vm.provision "file", source: "hello.cr", destination: "hello.cr"
+end
