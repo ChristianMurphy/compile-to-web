@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+
+  config.vm.provision "file", source: "makefile", destination: "makefile"
+  config.vm.provision "file", source: "hello.nim", destination: "hello.nim"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    echo 'source ~/scripts' >> .bashrc
+  SHELL
+
+  # OPTIONAL: increase ram and cpus to speed up builds
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 4096
+    v.cpus = 2
+  end
+end

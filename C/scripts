@@ -10,7 +10,6 @@ function install () {
 	tar -zxvf emsdk-portable.tar.gz
 	echo 'export PATH="$PATH:/home/ubuntu/emsdk-portable"' >> /home/ubuntu/.bashrc
 
-
   # ensure emscripten sdk manager is in environment
   source .bashrc
 
@@ -18,7 +17,6 @@ function install () {
   emsdk update
 	emsdk install sdk-incoming-64bit
 	emsdk activate sdk-incoming-64bit
-
 }
 
 function build () {
