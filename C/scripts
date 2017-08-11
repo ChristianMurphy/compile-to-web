@@ -1,0 +1,26 @@
+#!/bin/sh
+
+function install () {
+  apt-get update
+  # install emscripten prerequisits
+  sudo apt-get install -y build-essential cmake python nodejs git-core
+
+  # install emscripten sdk manager
+  wget https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-portable.tar.gz
+	tar -zxvf emsdk-portable.tar.gz
+	echo 'export PATH="$PATH:/home/ubuntu/emsdk-portable"' >> /home/ubuntu/.bashrc
+
+
+  # ensure emscripten sdk manager is in environment
+  source .bashrc
+
+  # install emscripten
+  emsdk update
+	emsdk install sdk-incoming-64bit
+	emsdk activate sdk-incoming-64bit
+
+}
+
+function build () {
+  emcc hello.c
+}

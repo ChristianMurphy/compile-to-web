@@ -1,22 +1,21 @@
 # Compile to Web - Language Support
 
-The goal of this project is to see what languages can be compiled into asm.js
-and web assembly (WASM)
+The goal of this project is to see what languages can be compiled into Web Assembly (WASM)
 
 ## Languages
 
-| Language                     | Instructions       | Compiles to LLVM   | LLVM compiles to asm.js | LLVM compiles to WASM |
-|------------------------------|:------------------:|:------------------:|:-----------------------:|:---------------------:|
-| [C](C/README.md)             | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
-| [C++](C++/README.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark:      | :white_check_mark:    |
-| [Crystal](Crystal/README.md) | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Go](Go/README.md)           | :white_check_mark: | :question:         | :question:              | :question:            |
-| [Haskell](Haskell/README.md) | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Java](Java/README.md)       | :white_check_mark: | :question:         | :question:              | :question:            |
-| [Julia](Julia/README.md)     | :white_check_mark: | :no_entry:         | :question:              | :question:            |
-| [Python](Python/README.md)   | :question:         | :question:         | :question:              | :question:            |
-| [Rust](Rust/README.md)       | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
-| [Swift](Swift/README.md)     | :white_check_mark: | :white_check_mark: | :no_entry:              | :no_entry:            |
+| Language                     | Instructions       | Compiles to LLVM   | LLVM compiles to WASM |
+|------------------------------|:------------------:|:------------------:|:---------------------:|
+| [C](C/README.md)             | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
+| [C++](C++/README.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
+| [Crystal](Crystal/README.md) | :question:         | :question:         | :question:            |
+| [Go](Go/README.md)           | :question:         | :question:         | :question:            |
+| [Haskell](Haskell/README.md) | :question:         | :question:         | :question:            |
+| [Java](Java/README.md)       | :question:         | :question:         | :question:            |
+| [Julia](Julia/README.md)     | :question:         | :question:         | :question:            |
+| [Python](Python/README.md)   | :question:         | :question:         | :question:            |
+| [Rust](Rust/README.md)       | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
+| [Swift](Swift/README.md)     | :question:         | :question:         | :question:            |
 
 ### Key
 
@@ -28,10 +27,12 @@ and web assembly (WASM)
 
 ## Installation
 
-1. Install vagrant
-2. For a desired language `cd` into the folder, then run
+1.  Install [Vagrant](https://www.vagrantup.com/downloads.html)
+2.  Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+3.  For a desired language `cd` into the folder, then run
 ``` sh
 vagrant up
 vagrant ssh
-make
+install
+build
 ```

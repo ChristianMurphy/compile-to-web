@@ -4,11 +4,16 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
+  config.vm.provision "file", source: "scripts", destination: "scripts"
+  config.vm.provision "file", source: "hello.rs", destination: "hello.rs"
+
   config.vm.provision "shell", inline: <<-SHELL
-    apt-get update
-    apt-get install -y make
+    echo 'source ~/scripts' >> .bashrc
   SHELL
 
-  config.vm.provision "file", source: "makefile", destination: "makefile"
-  config.vm.provision "file", source: "hello.rs", destination: "hello.rs"
+  # OPTIONAL: increase ram and cpus to speed up builds
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 4096
+    v.cpus = 2
+  end
 end
