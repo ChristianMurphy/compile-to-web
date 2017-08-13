@@ -4,21 +4,21 @@ The goal of this project is to see what languages can be compiled into Web Assem
 
 ## Languages
 
-| Language            | Instructions       | Compiles to LLVM   | LLVM compiles to WASM |
-|---------------------|:------------------:|:------------------:|:---------------------:|
-| [C](C/)             | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
-| [C#](C#/)           | :question:         | :question:         | :question:            |
-| [C++](C++/)         | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
-| [Crystal](Crystal/) | :question:         | :question:         | :question:            |
-| [F#](F#/)           | :question:         | :question:         | :question:            |
-| [Go](Go/)           | :question:         | :question:         | :question:            |
-| [Haskell](Haskell/) | :question:         | :question:         | :question:            |
-| [Java](Java/)       | :question:         | :question:         | :question:            |
-| [Julia](Julia/)     | :question:         | :question:         | :question:            |
-| [Nim](Nim/)         | :question:         | :question:         | :question:            |
-| [Python](Python/)   | :question:         | :question:         | :question:            |
-| [Rust](Rust/)       | :white_check_mark: | :white_check_mark: | :white_check_mark:    |
-| [Swift](Swift/)     | :question:         | :question:         | :question:            |
+| Language            | Compiles to LLVM   | LLVM compiles to WASM |
+|---------------------|:------------------:|:---------------------:|
+| [C](C/)             | :white_check_mark: | :white_check_mark:    |
+| [C#](C#/)           | :question:         | :question:            |
+| [C++](C++/)         | :white_check_mark: | :white_check_mark:    |
+| [Crystal](Crystal/) | :question:         | :question:            |
+| [F#](F#/)           | :question:         | :question:            |
+| [Go](Go/)           | :question:         | :question:            |
+| [Haskell](Haskell/) | :question:         | :question:            |
+| [Java](Java/)       | :question:         | :question:            |
+| [Julia](Julia/)     | :question:         | :question:            |
+| [Nim](Nim/)         | :question:         | :question:            |
+| [Python](Python/)   | :question:         | :question:            |
+| [Rust](Rust/)       | :white_check_mark: | :white_check_mark:    |
+| [Swift](Swift/)     | :question:         | :question:            |
 
 ### Key
 
