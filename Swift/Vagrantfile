@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
-  config.vm.provision "file", source: "makefile", destination: "makefile"
+  config.vm.provision "file", source: "scripts", destination: "scripts"
   config.vm.provision "file", source: "hello.swift", destination: "hello.swift"
 
   config.vm.provision "shell", inline: <<-SHELL
