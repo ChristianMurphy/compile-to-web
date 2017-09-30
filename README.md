@@ -7,7 +7,7 @@ The goal of this project is to see what languages can be compiled into Web Assem
 | Language            | Compiles to LLVM   | Compiles to WASM   |
 |---------------------|:------------------:|:------------------:|
 | [C](C/)             | :white_check_mark: | :white_check_mark: |
-| [C#](C#/)           | :question:         | :question:         |
+| [C#](C#/)           | :white_check_mark: | :white_check_mark: |
 | [C++](C++/)         | :white_check_mark: | :white_check_mark: |
 | [Crystal](Crystal/) | :question:         | :question:         |
 | [F#](F#/)           | :question:         | :question:         |
