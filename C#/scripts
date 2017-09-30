@@ -1,7 +1,63 @@
 #!/bin/sh
 
 function install () {
-  echo 'No install has been added yet, feel free to open a pull request'
+  # install llvm build dependencies
+  sudo apt update
+  sudo apt install -y git subversion cmake gcc g++ python
+
+  # build custom wasm llvm
+  mkdir -p src/mono-wasm
+  cd ~/src/mono-wasm
+  git clone https://github.com/lrz/mono-wasm build
+  svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
+  cd llvm/tools
+  svn co http://llvm.org/svn/llvm-project/cfe/trunk clang
+  cd ../..
+  mkdir llvm-build
+  cmake -G "Unix Makefiles" -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=WebAssembly -DCMAKE_BUILD_TYPE=Release ../llvm
+  make
+
+  # build binaryen
+  cd ~/src/mono-wasm
+  git clone https://github.com/WebAssembly/binaryen
+  cd binaryen
+  cmake .
+  make
+
+  # build custom mono llvm
+  cd ~/src/mono-wasm
+  clone https://github.com/mono/llvm llvm-mono
+  mkdir llvm-mono-build
+  cd llvm-mono-build
+  cmake -G "Unix Makefiles" -DCMAKE_OSX_ARCHITECTURES="i386;x86_64" ../llvm-mono
+  ditto ../llvm-mono/include include
+  make
+
+  # build mono compiler
+  cd ~/src/mono-wasm
+  git clone git@github.com:lrz/mono-wasm-mono.git mono-compiler
+  cd mono-compiler
+  ./autogen.sh --host=i386-darwin --with-cross-offsets=offsets-wasm32.h CFLAGS="-DCOMPILE_WASM32 -DMONO_CROSS_COMPILE" CXXFLAGS="-DCOMPILE_WASM32 -DMONO_CROSS_COMPILE" --disable-boehm --with-sigaltstack=no --enable-llvm --enable-llvm-runtime --with-llvm=../llvm-mono-build --disable-btls --with-runtime_preset=testing_aot_full
+  make
+
+  # prepare mono runtime
+  cd ~/src/mono-wasm
+  git clone git@github.com:lrz/mono-wasm-mono.git mono-runtime
+  cd mono-runtime
+  cp config-wasm32.h config.h
+  cp eglib/src/eglib-config-wasm32.h eglib/src/eglib-config.h
+
+  # c lib
+  cd ~/src/mono-wasm
+  git clone git@github.com:lrz/mono-wasm-libc.git libc
+
+  # build dist folder
+  cd ~/src/mono-wasm/build
+  make
+
+  # build hello world
+  cd sample/hello
+  make
 }
 
 function build () {
