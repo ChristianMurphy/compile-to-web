@@ -9,16 +9,16 @@ The goal of this project is to see what languages can be compiled into Web Assem
 | [C](C/)             | :white_check_mark: | :white_check_mark: |
 | [C#](C#/)           | :white_check_mark: | :white_check_mark: |
 | [C++](C++/)         | :white_check_mark: | :white_check_mark: |
-| [Crystal](Crystal/) | :question:         | :question:         |
+| [Crystal](Crystal/) | :white_check_mark: | :question:         |
 | [F#](F#/)           | :question:         | :question:         |
 | [Go](Go/)           | :question:         | :question:         |
 | [Haskell](Haskell/) | :question:         | :question:         |
 | [Java](Java/)       | :question:         | :question:         |
-| [Julia](Julia/)     | :question:         | :question:         |
+| [Julia](Julia/)     | :white_check_mark: | :question:         |
 | [Nim](Nim/)         | :question:         | :question:         |
 | [Python](Python/)   | :question:         | :question:         |
 | [Rust](Rust/)       | :white_check_mark: | :white_check_mark: |
-| [Swift](Swift/)     | :question:         | :question:         |
+| [Swift](Swift/)     | :white_check_mark: | :question:         |
 
 ### Key
 
