@@ -17,3 +17,16 @@
 5. Thats all! Thanks for contributing! :bow:
 
 ## Adding a new language
+
+1. First time opening a Pull Request? [Checkout this Pull Request guide!](https://github.com/Roshanjossey/first-contributions#readme)
+2. Add a new folder for the language with the following files:
+  * `hello.{language extension}` for example `hello.go` for Go lang
+  * `Vagrantfile`
+  * `scripts`
+3. Commit changes
+4. Add `install` and `build` steps to `scripts`
+5. Commit changes
+6. Open a Pull Request
+7. Review and updates to Pull Request
+8. PR merged
+9. Thats all! Thanks for Contributing! :bow:
