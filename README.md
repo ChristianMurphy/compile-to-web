@@ -42,3 +42,8 @@ sudo su -
 install
 build
 ```
+
+## Contributing
+
+Interested in seeing a new language? Found a bug in the examples?
+Check out the [Contributing Guide](CONTRIBUTING.md) for how to get involved!
