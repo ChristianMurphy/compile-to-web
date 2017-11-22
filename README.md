@@ -4,21 +4,23 @@ The goal of this project is to see what languages can be compiled into Web Assem
 
 ## Languages
 
-| Language            | Compiles to LLVM   | Compiles to WASM   |
-|---------------------|:------------------:|:------------------:|
-| [C](C/)             | :white_check_mark: | :white_check_mark: |
-| [C#](C#/)           | :white_check_mark: | :white_check_mark: |
-| [C++](C++/)         | :white_check_mark: | :white_check_mark: |
-| [Crystal](Crystal/) | :white_check_mark: | :question:         |
-| [F#](F#/)           | :question:         | :question:         |
-| [Go](Go/)           | :question:         | :question:         |
-| [Haskell](Haskell/) | :question:         | :question:         |
-| [Java](Java/)       | :question:         | :question:         |
-| [Julia](Julia/)     | :white_check_mark: | :question:         |
-| [Nim](Nim/)         | :question:         | :question:         |
-| [Python](Python/)   | :question:         | :question:         |
-| [Rust](Rust/)       | :white_check_mark: | :white_check_mark: |
-| [Swift](Swift/)     | :white_check_mark: | :question:         |
+| Language                  | Compiles to LLVM   | Compiles to WASM   |
+|---------------------------|:------------------:|:------------------:|
+| [C](C/)                   | :white_check_mark: | :white_check_mark: |
+| [C#](C#/)                 | :white_check_mark: | :white_check_mark: |
+| [C++](C++/)               | :white_check_mark: | :white_check_mark: |
+| [Crystal](Crystal/)       | :white_check_mark: | :question:         |
+| [F#](F#/)                 | :question:         | :question:         |
+| [Go](Go/)                 | :question:         | :question:         |
+| [Haskell](Haskell/)       | :question:         | :question:         |
+| [Java](Java/)             | :question:         | :question:         |
+| [Julia](Julia/)           | :white_check_mark: | :question:         |
+| [Kotlin](Kotlin/)         | :question:         | :question:         |
+| [Nim](Nim/)               | :question:         | :question:         |
+| [Python](Python/)         | :question:         | :question:         |
+| [Rust](Rust/)             | :white_check_mark: | :white_check_mark: |
+| [Swift](Swift/)           | :white_check_mark: | :question:         |
+| [TypeScript](TypeScript/) | :question:         | :question:         |
 
 ### Key
 
