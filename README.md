@@ -36,6 +36,7 @@ The goal of this project is to see what languages can be compiled into Web Assem
 ``` sh
 vagrant up
 vagrant ssh
+sudo su -
 install
 build
 ```
