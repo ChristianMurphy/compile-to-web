@@ -1,9 +1,10 @@
 #!/bin/sh
 
 function install () {
-  echo 'No install has been added yet, feel free to open a pull request'
+  wget https://github.com/JetBrains/kotlin-native/releases/download/v0.5/kotlin-native-linux-0.5.tar.gz
+  tar -zxvf kotlin-native-linux-0.5.tar.gz
 }
 
 function build () {
-  echo 'No build has been added yet, feel free to open a pull request'
+  ./kotlin-native-linux-0.5/bin/konanc hello.kt -target wasm32
 }

@@ -15,7 +15,7 @@ The goal of this project is to see what languages can be compiled into [Web Asse
 | [Haskell](Haskell/)       | :question:         | :question:         |
 | [Java](Java/)             | :question:         | :question:         |
 | [Julia](Julia/)           | :white_check_mark: | :question:         |
-| [Kotlin](Kotlin/)         | :question:         | :question:         |
+| [Kotlin](Kotlin/)         | :white_check_mark: | :white_check_mark: |
 | [Nim](Nim/)               | :question:         | :question:         |
 | [Python](Python/)         | :question:         | :question:         |
 | [Rust](Rust/)             | :white_check_mark: | :white_check_mark: |
