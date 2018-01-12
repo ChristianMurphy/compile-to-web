@@ -19,7 +19,7 @@ The goal of this project is to see what languages can be compiled into [Web Asse
 | [Nim](Nim/)               | :question:         | :question:         |
 | [Python](Python/)         | :question:         | :question:         |
 | [Rust](Rust/)             | :white_check_mark: | :white_check_mark: |
-| [Scala](Scala/)           | :question:         | :question:         |
+| [Scala](Scala/)           | :white_check_mark: | :no_entry:         |
 | [Swift](Swift/)           | :white_check_mark: | :question:         |
 | [TypeScript](TypeScript/) | :question:         | :question:         |
 
