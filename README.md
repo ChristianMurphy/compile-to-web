@@ -10,7 +10,7 @@ The goal of this project is to see what languages can be compiled into [Web Asse
 | [C#](C%23/)               | :white_check_mark: | :white_check_mark: |
 | [C++](C++/)               | :white_check_mark: | :white_check_mark: |
 | [Crystal](Crystal/)       | :white_check_mark: | :question:         |
-| [F#](F#/)                 | :question:         | :question:         |
+| [F#](F%23/)               | :question:         | :question:         |
 | [Go](Go/)                 | :question:         | :question:         |
 | [Haskell](Haskell/)       | :question:         | :question:         |
 | [Java](Java/)             | :question:         | :question:         |
