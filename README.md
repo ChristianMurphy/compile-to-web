@@ -1,6 +1,6 @@
-# Compile to Web - Language Support
+# ![Compile to Web](compile-to-web.png)
 
-The goal of this project is to see what languages can be compiled into [Web Assembly (WASM)](http://webassembly.org)
+Discover what languages can be compiled into [Web Assembly (WASM)](http://webassembly.org)
 
 ## Languages
 
