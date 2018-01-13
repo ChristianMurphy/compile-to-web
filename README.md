@@ -10,7 +10,7 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 | [C#](C%23/)               | :white_check_mark: | :white_check_mark: |
 | [C++](C++/)               | :white_check_mark: | :white_check_mark: |
 | [Crystal](Crystal/)       | :white_check_mark: | :question:         |
-| [F#](F%23/)               | :question:         | :question:         |
+| [F#](F%23/)               | :white_check_mark: | :white_check_mark: |
 | [Go](Go/)                 | :question:         | :question:         |
 | [Haskell](Haskell/)       | :question:         | :question:         |
 | [Java](Java/)             | :question:         | :question:         |
