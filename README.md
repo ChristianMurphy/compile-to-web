@@ -20,7 +20,7 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 | [Python](Python/)         | :question:         | :question:         |
 | [Rust](Rust/)             | :white_check_mark: | :white_check_mark: |
 | [Scala](Scala/)           | :white_check_mark: | :no_entry:         |
-| [Swift](Swift/)           | :white_check_mark: | :question:         |
+| [Swift](Swift/)           | :white_check_mark: | :no_entry:         |
 | [TypeScript](TypeScript/) | :question:         | :question:         |
 
 ### Key
