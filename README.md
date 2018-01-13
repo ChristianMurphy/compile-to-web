@@ -48,3 +48,9 @@ build
 
 Interested in seeing a new language? Found a bug in the examples?
 Check out the [Contributing Guide](CONTRIBUTING.md) for how to get involved!
+
+## FAQ
+
+**Question**: Why is "Compile to LLVM" listed?
+
+**Answer**: [LLVM](https://llvm.org/) was an [influence for WebAssembly technology](http://webassembly.org/docs/faq/#why-not-just-use-llvm-bitcode-as-a-binary-format) and [was the first compiler infastructure with official WASM support](http://webassembly.org/docs/faq#which-compilers-can-i-use-to-build-webassembly-programs).
