@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "file", source: "scripts", destination: "scripts"
   config.vm.provision "file", source: "hello.java", destination: "hello.java"
+  config.vm.provision "file", source: "pom.xml", destination: "pom.xml"
 
   config.vm.provision "shell", inline: <<-SHELL
     echo 'source ~/scripts' >> .bashrc

@@ -1,9 +1,10 @@
 #!/bin/sh
 
 function install () {
-  echo 'No install has been added yet, feel free to open a pull request'
+  apt install maven
+  apt install openjdk-8-jdk
 }
 
 function build () {
-  echo 'No build has been added yet, feel free to open a pull request'
+  mvn install
 }

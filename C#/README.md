@@ -2,7 +2,7 @@
 
 ## Supported
 
-:white_check_mark: Yes
+:ballot_box_with_check: Yes
 
 ## Compiler Support
 
