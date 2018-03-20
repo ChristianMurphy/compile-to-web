@@ -4,32 +4,32 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 
 ## Languages
 
-| Language                  | Compiles to LLVM   | Compiles to WASM   |
-|---------------------------|:------------------:|:------------------:|
-| [C](C/)                   | :white_check_mark: | :white_check_mark: |
-| [C#](C%23/)               | :white_check_mark: | :white_check_mark: |
-| [C++](C++/)               | :white_check_mark: | :white_check_mark: |
-| [Crystal](Crystal/)       | :white_check_mark: | :question:         |
-| [F#](F%23/)               | :white_check_mark: | :white_check_mark: |
-| [Go](Go/)                 | :question:         | :question:         |
-| [Haskell](Haskell/)       | :question:         | :question:         |
-| [Java](Java/)             | :question:         | :question:         |
-| [Julia](Julia/)           | :white_check_mark: | :question:         |
-| [Kotlin](Kotlin/)         | :white_check_mark: | :white_check_mark: |
-| [Nim](Nim/)               | :question:         | :question:         |
-| [Python](Python/)         | :question:         | :question:         |
-| [Rust](Rust/)             | :white_check_mark: | :white_check_mark: |
-| [Scala](Scala/)           | :white_check_mark: | :no_entry:         |
-| [Swift](Swift/)           | :white_check_mark: | :no_entry:         |
-| [TypeScript](TypeScript/) | :question:         | :question:         |
+| Language                  | Compiles to LLVM        | Compiles to WASM        |
+|---------------------------|:-----------------------:|:-----------------------:|
+| [C](C/)                   | :ballot_box_with_check: | :ballot_box_with_check: |
+| [C#](C%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
+| [C++](C++/)               | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Crystal](Crystal/)       | :ballot_box_with_check: | :question:              |
+| [F#](F%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Go](Go/)                 | :question:              | :question:              |
+| [Haskell](Haskell/)       | :question:              | :question:              |
+| [Java](Java/)             | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Julia](Julia/)           | :ballot_box_with_check: | :question:              |
+| [Kotlin](Kotlin/)         | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Nim](Nim/)               | :question:              | :question:              |
+| [Python](Python/)         | :question:              | :question:              |
+| [Rust](Rust/)             | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Scala](Scala/)           | :ballot_box_with_check: | :no_entry:              |
+| [Swift](Swift/)           | :ballot_box_with_check: | :no_entry:              |
+| [TypeScript](TypeScript/) | :question:              | :question:              |
 
 ### Key
 
-| Icon               | Meaning |
-|:------------------:|---------|
-| :white_check_mark: | Success |
-| :no_entry:         | Broken  |
-| :question:         | Unknown |
+| Icon                    | Meaning |
+|:-----------------------:|---------|
+| :ballot_box_with_check: | Success |
+| :no_entry:              | Broken  |
+| :question:              | Unknown |
 
 ## Installation
 
