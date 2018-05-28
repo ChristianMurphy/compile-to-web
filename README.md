@@ -4,39 +4,40 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 
 ## Languages
 
-| Language                  | Compiles to LLVM        | Compiles to WASM        |
-|---------------------------|:-----------------------:|:-----------------------:|
+| Language                  |    Compiles to LLVM     |    Compiles to WASM     |
+| ------------------------- | :---------------------: | :---------------------: |
 | [C](C/)                   | :ballot_box_with_check: | :ballot_box_with_check: |
 | [C#](C%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
 | [C++](C++/)               | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Crystal](Crystal/)       | :ballot_box_with_check: | :grey_question:         |
+| [Crystal](Crystal/)       | :ballot_box_with_check: |     :grey_question:     |
 | [F#](F%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Go](Go/)                 | :grey_question:         | :grey_question:         |
-| [Haskell](Haskell/)       | :grey_question:         | :grey_question:         |
+| [Go](Go/)                 |     :grey_question:     |     :grey_question:     |
+| [Haskell](Haskell/)       |     :grey_question:     |     :grey_question:     |
 | [Java](Java/)             | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Julia](Julia/)           | :ballot_box_with_check: | :grey_question:         |
+| [Julia](Julia/)           | :ballot_box_with_check: |     :grey_question:     |
 | [Kotlin](Kotlin/)         | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Nim](Nim/)               | :grey_question:         | :grey_question:         |
-| [Python](Python/)         | :grey_question:         | :grey_question:         |
+| [Nim](Nim/)               | :ballot_box_with_check: | :ballot_box_with_check: |
+| [Python](Python/)         |     :grey_question:     |     :grey_question:     |
 | [Rust](Rust/)             | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Scala](Scala/)           | :ballot_box_with_check: | :no_entry:              |
-| [Swift](Swift/)           | :ballot_box_with_check: | :no_entry:              |
-| [TypeScript](TypeScript/) | :grey_question:         | :grey_question:         |
+| [Scala](Scala/)           | :ballot_box_with_check: |       :no_entry:        |
+| [Swift](Swift/)           | :ballot_box_with_check: |       :no_entry:        |
+| [TypeScript](TypeScript/) |     :grey_question:     |     :grey_question:     |
 
 ### Key
 
-| Icon                    | Meaning |
-|:-----------------------:|---------|
+|          Icon           | Meaning |
+| :---------------------: | ------- |
 | :ballot_box_with_check: | Success |
-| :no_entry:              | Broken  |
-| :grey_question:         | Unknown |
+|       :no_entry:        | Broken  |
+|     :grey_question:     | Unknown |
 
 ## Installation
 
 1.  Install [Vagrant](https://www.vagrantup.com/downloads.html)
 2.  Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 3.  For a desired language `cd` into the folder, then run
-``` sh
+
+```sh
 vagrant up
 vagrant ssh
 sudo su -
