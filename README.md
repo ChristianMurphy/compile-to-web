@@ -11,7 +11,7 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 | [C++](C++/)               | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Crystal](Crystal/)       | :ballot_box_with_check: |     :grey_question:     |
 | [F#](F%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
-| [Go](Go/)                 |     :grey_question:     |     :grey_question:     |
+| [Go](Go/)                 | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Haskell](Haskell/)       |     :grey_question:     |     :grey_question:     |
 | [Java](Java/)             | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Julia](Julia/)           | :ballot_box_with_check: |     :grey_question:     |

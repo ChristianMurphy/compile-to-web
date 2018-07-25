@@ -2,8 +2,9 @@
 
 ## Supported
 
-:no_entry: Not Yet
+:ballot_box_with_check: Yes
 
 ## Compiler Support
 
-There is [ongoing discussion on Go support](https://github.com/golang/go/issues/18892).
+Compiling Go to WASM is supported through the `GOARCH=wasm GOOS=js` compiler options.
+See https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html
