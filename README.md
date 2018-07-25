@@ -10,6 +10,7 @@ Discover what languages can be compiled into [Web Assembly (WASM)](http://webass
 | [C#](C%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
 | [C++](C++/)               | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Crystal](Crystal/)       | :ballot_box_with_check: |     :grey_question:     |
+| [D](D/)                   | :ballot_box_with_check: | :ballot_box_with_check: |
 | [F#](F%23/)               | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Go](Go/)                 | :ballot_box_with_check: | :ballot_box_with_check: |
 | [Haskell](Haskell/)       |     :grey_question:     |     :grey_question:     |
